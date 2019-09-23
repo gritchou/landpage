@@ -1,0 +1,27 @@
+{
+  "name": "gritchou.github.io",
+  "version": "0.0.1",
+  "description": "Personal landpage",
+  "main": "src",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gritchou/gritchou.github.io.git"
+  },
+  "author": "Jean-François Grand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gritchou/gritchou.github.io/issues"
+  },
+  "homepage": "https://gritchou.dev",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.1"
+  }
+}

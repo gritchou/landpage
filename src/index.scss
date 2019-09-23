@@ -1,0 +1,34 @@
+@import '_vars';
+
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/brands';
+
+html {
+    height: 100%;
+    font-size: 0.5em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: white;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.twitter::before { 
+    content: fa-content(twitter);
+}
+.github::before { 
+    content: fa-content(github);
+}
+.linkedin::before { 
+    content: fa-content(linkedin);
+}
