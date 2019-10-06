@@ -27,12 +27,11 @@ body {
 }
 
 .avatar {
-    border-radius: 50%;
+    border-radius: 10px;
     margin-right: 4em;
     border: 3px solid white;
 
     &:hover {
-        // transition: transform .4s ease-in-out;
         transform: scale(1.1);
         border-color: orangered;
     }
@@ -68,7 +67,6 @@ body {
     padding: 0.2em 0.5em;
 
     &:hover {
-        // transition: transform .4s ease-in-out;
         transform: scale(1.1);
         color: orangered;
     }
