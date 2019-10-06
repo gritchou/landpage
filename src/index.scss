@@ -16,19 +16,70 @@ body {
     min-height: 100%;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background: white;
+    background: #1f1e50;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar {
     border-radius: 50%;
+    margin-right: 4em;
+    border: 3px solid white;
+
+    &:hover {
+        // transition: transform .4s ease-in-out;
+        transform: scale(1.1);
+        border-color: orangered;
+    }
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    width: 90%;
+    margin: 1em 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    @extend %fa-icon;
+    @extend .fab;
+    text-decoration: none;
+    color: white;
+    font-size: 5em;
+    padding: 0.2em 0.5em;
+
+    &:hover {
+        // transition: transform .4s ease-in-out;
+        transform: scale(1.1);
+        color: orangered;
+    }
 }
 
 .twitter::before { 
-    content: fa-content(twitter);
+    content: fa-content($fa-var-twitter-square);
 }
 .github::before { 
-    content: fa-content(github);
+    content: fa-content($fa-var-github-square);
 }
 .linkedin::before { 
-    content: fa-content(linkedin);
+    content: fa-content($fa-var-linkedin);
 }
