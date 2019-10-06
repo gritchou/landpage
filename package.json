@@ -1,5 +1,5 @@
 {
-  "name": "gritchou.github.io",
+  "name": "gritchou.dev",
   "version": "0.0.1",
   "description": "Personal landpage",
   "main": "src",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gritchou/gritchou.github.io.git"
+    "url": "git+https://github.com/gritchou/gritchou.dev.git"
   },
   "author": "Jean-François Grand",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gritchou/gritchou.github.io/issues"
+    "url": "https://github.com/gritchou/gritchou.dev/issues"
   },
   "homepage": "https://gritchou.dev",
   "devDependencies": {
